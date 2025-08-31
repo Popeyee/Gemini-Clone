@@ -4,4 +4,5 @@ import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
   plugins: [react(), visualizer()],
+  base: "/Gemini-Clone/",
 });
