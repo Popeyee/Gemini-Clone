@@ -8,9 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "preview": "vite preview"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@google/genai": "^1.15.0",
